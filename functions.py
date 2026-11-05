@@ -1,3 +1,17 @@
+import time
+import json
+import os
+import re
+import webbrowser
+import base64
+import ast
+import operator
+import sys
+import random
+import difflib
+from datetime import datetime
+from urllib.parse import quote
+
 def print_slow(text, delay=0.01):
     for char in text:
         sys.stdout.write(char)
